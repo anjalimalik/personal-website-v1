@@ -1,5 +1,5 @@
 # ignore images for now
-./img/
+img/
 
 # DS_Store
 .DS_Store
