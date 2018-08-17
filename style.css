@@ -11,11 +11,16 @@ body {
 highlight {
     font-family: "Space Mono", Arial, serif;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 15px;
     color: #555555;
 }
-  
+
+span {
+    margin-right: 0.5em;
+}
+
 a {
+    font-family: "Space Mono", Arial, serif;
     -webkit-transition: .3s all ease;
     -o-transition: .3s all ease;
     transition: .3s all ease;
@@ -64,5 +69,28 @@ main-container {
     float: left;
     padding: 7%;
     position: relative;
+}
+.redirect-home {
+    float: left;
+    position: absolute;
+    top: 20px;
+    color: #372A73;
+    font-size: 22px;
+}
+.redirect-resume {
+    float: left;
+    position: absolute;
+    top: 20px;
+    left: 24%;
+    color: #372A73;
+    font-size: 20px;
+}
+.redirect-contact {
+    float: left;
+    position: absolute;
+    top: 20px;
+    left: 34%;
+    color: #372A73;
+    font-size: 20px;
 }
   
