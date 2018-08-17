@@ -4,17 +4,28 @@ body {
     font-weight: 400;
     font-size: 15px;
     line-height: 1.8;
-    color: #b3b3b3;
+    color: #7E7E7E;
     background: #fff;
+}
+
+highlight {
+    font-family: "Space Mono", Arial, serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #555555;
 }
   
 a {
     -webkit-transition: .3s all ease;
     -o-transition: .3s all ease;
     transition: .3s all ease;
+    font-weight: 550;
+    color: #283F99;
+    text-decoration: none;
 }
-  
+
 a:hover {
+    color: #A398EF;
     text-decoration: none;
 }
   
