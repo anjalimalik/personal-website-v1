@@ -1,0 +1,57 @@
+
+body {
+    font-family: "Space Mono", Arial, serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.8;
+    color: #b3b3b3;
+    background: #fff;
+}
+  
+a {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+}
+  
+a:hover {
+    text-decoration: none;
+}
+  
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Space Mono", Arial, serif;
+    color: #000;
+}
+  
+main-container, picture {
+    width: 100%;
+}
+  
+@media (min-width: 576px) {
+    main-container, picture {
+      width: 50%;
+    }
+}
+  
+picture {
+    background-position: center center;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+}
+  
+@media (min-width: 576px) {
+    picture {
+      height: 100vh;
+      position: fixed;
+      right: 0;
+      top: 0;
+    }
+}
+  
+main-container {
+    float: left;
+    padding: 7%;
+    position: relative;
+}
+  
