@@ -1,3 +1,6 @@
+# ignore images for now
+./img/
+
 # DS_Store
 .DS_Store
 
