@@ -30,7 +30,8 @@ a {
 }
 
 a:hover {
-    color: #A398EF;
+    /*color: #A398EF;*/
+    color: #FF9D00;
     text-decoration: none;
 }
   
@@ -58,25 +59,28 @@ picture {
   
 @media (min-width: 576px) {
     picture {
+      float: left;
       height: 100vh;
       position: fixed;
-      right: 0;
+      left: 0;
       top: 0;
     }
 }
   
 main-container {
-    float: left;
+    float: right;
     padding: 7%;
     position: relative;
 }
+
 .redirect-home {
     float: left;
     position: absolute;
     top: 20px;
-    color: #372A73;
+    color: #2A2157;
     font-size: 22px;
 }
+
 .redirect-resume {
     float: left;
     position: absolute;
@@ -92,5 +96,9 @@ main-container {
     left: 34%;
     color: #372A73;
     font-size: 20px;
+}
+
+.redirect-home:hover, .redirect-resume:hover, .redirect-contact:hover {
+    color: #F1C850;
 }
   
