@@ -16,7 +16,7 @@ highlight {
 }
 
 extra {
-    font-weight: 900;
+    font-weight: 600;
 }
 
 tech {
@@ -70,7 +70,7 @@ maincontainer, picture {
 }
   
 picture {
-    background-position: center center;
+    background-position: top top;
     background-size: cover;
     height: 400px;
     position: relative;
@@ -104,7 +104,7 @@ maincontainer {
     float: left;
     position: absolute;
     top: 20px;
-    left: 24%;
+    left: 22%;
     color: #2440AE;
     font-size: 20px;
 }
@@ -112,7 +112,7 @@ maincontainer {
     float: left;
     position: absolute;
     top: 20px;
-    left: 34%;
+    left: 32%;
     color: #2440AE;
     font-size: 20px;
 }
