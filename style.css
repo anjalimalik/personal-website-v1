@@ -287,3 +287,15 @@ location {
       left: 0%;
     }
 }
+
+/* Contact Page specific */
+
+.btnContact {
+    font-family: 'VT323', Arial, serif; 
+    font-size: 30px; 
+    letter-spacing: 4px; 
+    color: black; 
+    background-color: #20F2FE;
+    border: none;
+    border-radius: 5px;
+}
