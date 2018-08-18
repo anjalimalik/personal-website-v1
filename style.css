@@ -19,6 +19,11 @@ extra {
     font-weight: 900;
 }
 
+tech {
+    font-weight: 900;
+    color: #607789;
+}
+
 span {
     margin-right: 0.5em;
 }
