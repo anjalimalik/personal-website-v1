@@ -282,6 +282,14 @@ location {
         top: 0;
     }
 
+    .redirect-contact, .redirect-home, .redirect-resume {
+        margin-bottom: 20px;
+    }
+
+    .left, .right{
+        left: 0;
+        text-align: right;
+    }
 }
 
 @media screen and (max-width: 600px) {
