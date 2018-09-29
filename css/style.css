@@ -2,7 +2,7 @@
 body {
     font-family: "Space Mono", Arial, serif;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 12px;
     line-height: 1.8;
     color: #7E7E7E;
     background: #fff;
@@ -11,7 +11,7 @@ body {
 highlight {
     font-family: "Space Mono", Arial, serif;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 12px;
     color: #555555;
 }
 
